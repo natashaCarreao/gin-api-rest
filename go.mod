@@ -2,7 +2,10 @@ module github.com/gin-api-rest
 
 go 1.18
 
-require github.com/gin-gonic/gin v1.7.7
+require (
+	github.com/gin-gonic/gin v1.7.7
+	gopkg.in/validator.v2 v2.0.1
+)
 
 require (
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
@@ -34,5 +37,5 @@ require (
 	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 // indirect
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 	gorm.io/driver/postgres v1.3.6
-	gorm.io/gorm v1.23.5 // indirect
+	gorm.io/gorm v1.23.5
 )
